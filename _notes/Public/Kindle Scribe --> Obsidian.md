@@ -21,10 +21,9 @@ With a bit of playing I have worked out a way to automate the process using Make
 7. Next, add a 'HTTP Get File' node. For the 'URL', choose 'href'. This will download the PDF notebook
 8. Last, add a 'Google Drive' node using the 'Upload a File' option. You will need to authenticate Google Drive as part of this step. This requires a bit of configuration. Make provides a guide for this here - https://www.make.com/en/help/app/google-drive#create-and-configure-a-google-cloud-console-project-for-google-drive
 9. One authenticated, map the uploaded file to the correct folder in Google Drive. This must be a folder inside your Obsidian vault. Under 'File' choose the 'HTTP - Get a file' option. This will add the PDF file downloaded from the Scribe link to your Obsidian vault
-![[Pasted image 20240319235911.png]]
+
+![Alt Text](/assets/img/make_sync_scribe.png "Make Scenario")
+
 That's it. When you next share a Scribe notebook via email, the automation will be triggered and the file will become available within your Obsidian vault.
-
-
-
 
 
