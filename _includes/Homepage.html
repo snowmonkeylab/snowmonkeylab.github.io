@@ -13,8 +13,10 @@
             </h3>
     </a>
 
-    <div class="home-wrapper">  
+    <div class="home-wrapper">
+        {% assign notes = site.notes | where: 'feed', 'show' | sort: 'date' | reverse %}
             <div class="homelist-feed"> <a href="{{ note.url }}">{{ note.title }}</a></div>
+            {% endfor %}
     </div>
 </div>
 
