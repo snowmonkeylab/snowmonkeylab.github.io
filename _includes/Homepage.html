@@ -14,10 +14,7 @@
     </a>
 
     <div class="home-wrapper">  
-            {% assign notes = site.notes | where: 'category', 'notes' | where: 'feed', 'show' | sort: 'date' | reverse %}
-            {% for note in notes limit: 5 %}
             <div class="homelist-feed"> <a href="{{ note.url }}">{{ note.title }}</a></div>
-            {% endfor %}
     </div>
 </div>
 
