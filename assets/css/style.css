@@ -1559,7 +1559,8 @@ a[href^="http"] {
 }
 
 .homelist-feed{
-    padding-bottom: 1rem;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    border-bottom: 1px solid var(--color-border-light);
 }
 
 .home-image {
