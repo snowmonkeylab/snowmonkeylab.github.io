@@ -1232,6 +1232,14 @@ ol p {
     height: 3rem;
     width: 3rem; }
 
+.profileimage{
+  max-width: none;
+  max-height: none;
+  height: 5rem;
+  padding: 40%;
+
+}
+
 .image {
   display: block;
   position: relative; }
