@@ -1235,9 +1235,9 @@ ol p {
 
 .profileimg{
   max-width: none;
-  max-height: none;
+  max-height: none !important;
   height: 5rem;
-  padding: 40%;
+  padding: 10px;
 }
 
 .image {
