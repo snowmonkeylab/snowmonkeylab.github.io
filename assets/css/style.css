@@ -333,6 +333,10 @@ ul ul {
     color: var(--color-text-main);
 }
 
+.homelist-feed a{
+    display:block;
+}
+
 .notelist-feed a:hover {
     color: var(--color-text-link);
 }
