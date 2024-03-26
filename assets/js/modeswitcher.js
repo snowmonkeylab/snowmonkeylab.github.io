@@ -6,8 +6,8 @@ Creative Commons Attribution 4.0 International License
 
 let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)"); 
 
-const iconSun = "{{ site.baseurl }}/assets/img/sun.svg";
-const iconMoon = "{{ site.baseurl }}/assets/img/moon.svg";
+const iconSun = "/assets/img/sun.svg";
+const iconMoon = "/assets/img/moon.svg";
 
 
 function changeIconImgSrc(src) {
